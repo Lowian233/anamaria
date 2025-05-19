@@ -1,0 +1,133 @@
+{
+  "navigation": {
+  "home": "Home",
+  "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Learn Spanish with Ana María",
+        "subtitle": "Personalized classes for all levels",
+        "cta": "Start Now"
+      },
+      "services": {
+        "title": "Our Services",
+        "service1": {
+          "title": "Individual Classes",
+          "description": "Personal attention and flexible schedules"
+        },
+        "service2": {
+          "title": "Group Classes",
+          "description": "Learn in a dynamic and collaborative environment"
+        },
+        "service3": {
+          "title": "DELE Preparation",
+          "description": "Prepare for your official certificate"
+        }
+      },
+      "testimonials": [
+        {
+          "image": "/images/landing.jpeg",
+          "text": "Ana is an excellent teacher. Her classes are very dynamic and I have improved my Spanish a lot.",
+          "name": "John Smith",
+          "role": "Pilot"
+        },
+        {
+          "image": "/images/landing.jpeg",
+          "text": "The classes are very practical and Ana adapts perfectly to my needs.",
+          "name": "Emma Chen",
+          "role": "Business Consultant"
+        }
+      ]  
+
+      
+    },
+    "about": {
+        "title": "Meet Ana Jaramillo",
+        "paragraph1": "With over 20 years of experience, Ana has coached professionals around the world in mastering Spanish for high-level communication.",
+        "paragraph2": "Her unique approach combines certified linguistic expertise with neuroscience and embodied learning.",
+        "certifications": {
+          "celta": "Certified CELTA English Language Teacher",
+          "ihcolt": "IH-COLT Trainer in Coaching for Language Teachers",
+          "neuro": "Graduate studies in Neuropsychology and Embodied Learning"
+        }
+},
+"services": {
+  "title": "Our Core Services",
+  "service1": {
+    "title": "Bespoke Coaching",
+    "description": "One-on-one Spanish training tailored to your profession, goals and schedule."
+  },
+  "service2": {
+    "title": "Skills Mastering",
+    "description": "Focused development of skills like pronunciation, writing, business speaking and listening."
+  },
+  "service3": {
+    "title": "MCER-Aligned Courses",
+    "description": "Structured programs from A1 to C1 levels with clear, practical progression."
+  }
+},
+"mcer": {
+  "title": "MCER Progression",
+  "seeCourses": "See Courses",
+  "A1": {
+    "name": "Beginner",
+    "description": "Understand basic expressions. Introduce yourself and interact simply."
+  },
+  "A2": {
+    "name": "Explorer",
+    "description": "Handle routine tasks and simple personal information exchange."
+  },
+  "B1": {
+    "name": "Connector",
+    "description": "Deal with most travel situations. Describe experiences, opinions, and plans."
+  },
+  "B2": {
+    "name": "Performer",
+    "description": "Interact with fluency. Understand main ideas of complex texts and debates."
+  },
+  "C1": {
+    "name": "Leader",
+    "description": "Use Spanish flexibly and effectively in social, academic and professional contexts."
+  }
+},
+"prueba": {
+  "title": "Not sure where to start?",
+  "description": "Take a short diagnostic test and discover your current Spanish level. It's fast, free and the first step to your personalized plan.",
+  "button": "Take the Level Test",
+  "bullets": [
+    "Quick and free",
+    "Immediate results",
+    "Personalize your learning"
+  ]
+},
+ "cta": {
+        "title": "Book your trial class!",
+        "subtitle": "Book your first session in minutes!",
+        "description": "Choose the time that suits you best and start your journey to fluency.",
+        "button": "Book now",
+        "bullets": [
+          "Easy and fast",
+          "No commitment",
+          "Choose your schedule"
+        ]
+      },
+      "footer": {
+  "description": "Elite Spanish coaching for professionals worldwide. Learn with impact, precision and confidence.",
+  "nav": "Navigation",
+  "connect": "Connect with us",
+  "links": {
+    "home": "Home",
+    "about": "About Ana",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "rights": "All rights reserved."
+}
+
+  }
+  

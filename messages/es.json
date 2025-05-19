@@ -1,0 +1,132 @@
+{
+    "navigation": {
+        "home": "Inicio",
+        "about": "Sobre Ana",
+        "services": "Servicios",
+        "pricing": "Precios",
+        "blog": "Blog",
+        "contact": "Contacto"
+    },
+    "homepage": {
+      "hero": {
+        "title": "Aprende Español con Ana María",
+        "subtitle": "Clases personalizadas para todos los niveles",
+        "cta": "Comienza ahora"
+      },
+      "services": {
+        "title": "Nuestros Servicios",
+        "service1": {
+          "title": "Clases individuales",
+          "description": "Atención personalizada y horarios flexibles."
+        },
+        "service2": {
+          "title": "Mejora de pronunciación",
+          "description": "Mejora tu pronunciación, escritura y comprensión auditiva."
+        },
+        "service3": {
+          "title": "Preparación para DELE",
+          "description": "Prepara tu certificado oficial."
+        }
+      },
+      "testimonials": [
+        {
+          "image": "/images/landing.jpeg",
+          "text": "Ana es una excelente profesora. Sus clases son muy dinámicas y he mejorado mucho mi español.",
+          "name": "John Smith",
+          "role": "Pilot"
+        },
+        {
+          "image": "/images/landing.jpeg",
+          "text": "mi fluidez mejoró mucho y cerré un negocio en Bogotá el mes pasado.",
+          "name": "Emma Chen",
+          "role": "Business Consultant"
+        }
+      ]
+      
+    },
+    "about": {
+      "title": "Conoce a Ana María",
+      "paragraph1": "Con más de 20 años de experiencia, Ana ha ayudado a profesionales de todo el mundo a dominar el español para la comunicación de alto nivel.",
+      "paragraph2": "Su enfoque único combina expertiza lingüística certificada con neurociencia y aprendizaje corporal.",
+      "certifications": {
+        "celta": "Profesora de inglés certificada CELTA",
+        "ihcolt": "Entrenadora IH-COLT en coaching para profesores de idiomas",
+        "neuro": "Estudios en neuropsicología y aprendizaje Encarnado"
+      }
+    },
+   "services": {
+  "title": "Nuestros Servicios Clave",
+  "service1": {
+    "title": "Coaching Personalizado",
+    "description": "Entrenamiento individual de español adaptado a tu profesión, objetivos y horario."
+  },
+  "service2": {
+    "title": "Dominio de Habilidades",
+    "description": "Desarrollo específico de habilidades como pronunciación, escritura, oratoria y escucha."
+  },
+  "service3": {
+    "title": "Cursos MCER Estructurados",
+    "description": "Programas guiados desde A1 hasta C1 con una progresión clara y aplicable."
+  }
+},
+"mcer": {
+  "title": "MCER Progression",
+  "seeCourses": "Ver cursos",
+  "A1": {
+    "name": "Principiante",
+    "description": "Comprende expresiones básicas, se presenta y mantiene interacciones simples."
+  },
+  "A2": {
+    "name": "Explorador",
+    "description": "Realiza tareas cotidianas y puede intercambiar información personal básica."
+  },
+  "B1": {
+    "name": "Conector",
+    "description": "Maneja situaciones de viaje, describe experiencias y expresa opiniones."
+  },
+  "B2": {
+    "name": "Comunicador",
+    "description": "Interactúa con soltura, comprende ideas principales de textos y debates."
+  },
+  "C1": {
+    "name": "Líder",
+    "description": "Usa el español con flexibilidad y eficacia en contextos sociales y profesionales."
+  }
+},
+  "prueba": {
+  "title": "¿No sabes por dónde empezar?",
+  "description": "Haz una prueba de diagnóstico rápida para conocer tu nivel actual de español. Es gratuita y el primer paso hacia tu plan personalizado.",
+  "button": "Hacer prueba de nivel",
+  "bullets": [
+    "Rápida y gratuita",
+    "Resultados inmediatos",
+    "Personaliza tu aprendizaje"
+  ]
+},
+   "cta": {
+        "title": "¡Agenda tu clase de prueba!",
+        "subtitle": "¡Reserva tu primera sesión en minutos!",
+        "description": "Elige el horario que más te convenga y empieza tu camino hacia la fluidez.",
+        "button": "Agendar ahora",
+        "bullets": [
+          "Fácil y rápido",
+          "Sin compromiso",
+          "Elige tu horario"
+        ]
+      },
+      "footer": {
+  "description": "Coaching de español de élite para profesionales alrededor del mundo. Aprende con impacto, precisión y confianza.",
+  "nav": "Navegación",
+  "connect": "Conéctate con nosotros",
+  "links": {
+    "home": "Inicio",
+    "about": "Sobre Ana",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "contact": "Contacto"
+  },
+  "rights": "Todos los derechos reservados."
+}
+
+  }
+  

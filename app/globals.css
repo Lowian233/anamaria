@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-fondo: #6E3AC3;
+  --color-fondo-claro: #7236CC;
+  --color-fondo-oscuro: #784FB5;
+  --color-plateado: #F6F3FD;
+  --color-plateado-claro: #E0E0E0;
+  --color-plateado-oscuro: #A9A9A9;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-fondo);
+    color: var(--color-plateado);
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-plateado);
+  }
+
+  p {
+    color: var(--color-plateado-claro);
+  }
+
+
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Estilos para el slider */
+  .embla {
+    overflow: hidden;
+  }
+
+  .embla__container {
+    display: flex;
+    backface-visibility: hidden;
+    touch-action: pan-y;
+  }
+
+  .embla__slide {
+    position: relative;
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0e0d0d;
+    --foreground: #fffafa;
+  }
+}
