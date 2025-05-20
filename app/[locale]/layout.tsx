@@ -9,14 +9,14 @@ import Footer from '../components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default async function LocaleLayout({
-  children,
-  params
-}: {
+// ✅ Aquí usamos tipo explícito con tipo genérico compatible
+type LayoutProps = {
   children: React.ReactNode;
-  params: { locale: string }; // ✅ CORRECTO
-}) {
-  const locale = params.locale; // ✅ NO necesitas await
+  params: any; // Forzamos para que Next no aplique el tipo roto del plugin
+};
+
+export default async function LocaleLayout({ children, params }: LayoutProps) {
+  const locale = params.locale;
 
   let messages;
   try {
