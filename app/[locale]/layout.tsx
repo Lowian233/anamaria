@@ -11,12 +11,13 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  // Validación opcional de locale
+  const { locale } = await params;
+
   let messages;
   try {
     messages = await getMessages({ locale });
