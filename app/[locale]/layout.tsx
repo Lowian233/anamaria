@@ -14,9 +14,9 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: { locale: string }; // ✅ CORRECTO
 }) {
-  const locale = params.locale;
+  const locale = params.locale; // ✅ NO necesitas await
 
   let messages;
   try {
